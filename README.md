@@ -13,3 +13,5 @@ Harsh rerun of the course material part1 https://devopswithdocker.com/part1/
 | CMD [“localhost”]                 |                                                  |
 | ENTRYPOINT [“/bin/ping”,”-c”,”3”] | /bin/ping -c 3 localhost                         |
 | CMD [“localhost”]                 |                                                  |
+
+# some stuff
