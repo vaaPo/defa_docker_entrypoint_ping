@@ -1,5 +1,6 @@
 # DEFA docker course - part 1 entrypoint
 [DEFA docker course - part 1 entrypoint](#defa-docker-course---part-1-entrypoint)
+This docker image will ping your localhost to nirvana!
 
 Harsh rerun of the course material part1 https://devopswithdocker.com/part1/
 
@@ -26,4 +27,12 @@ See docker-compose.yml
 docker-compose build
 docker-compose run entrypoint_ping
 ```
+# dockerhub
+The push refers to repository [docker.io/vaapo/entrypoint_ping]
+```code
+docker-compose push
+docker pull vaapo/entrypoint_ping
+docker run vaapo/entrypoint_ping
+```
+
 
