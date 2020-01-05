@@ -15,14 +15,15 @@ Harsh rerun of the course material part1 https://devopswithdocker.com/part1/
 | CMD ["localhost"]                 |                                                  |                                                                |
 
 # docker
-'''code
+´´´code
 docker build -t vaapo/entrypoint_ping .
 docker run vaapo/entrypoint_ping
-'''
+´´´
 
 # docker-compose can be used
 See docker-compose.yml
-'''code
+´´´code
 docker-compose build
 docker-compose run entrypoint_ping
-'''
+´´´
+
