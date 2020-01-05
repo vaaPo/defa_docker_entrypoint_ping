@@ -34,5 +34,10 @@ docker-compose push
 docker pull vaapo/entrypoint_ping
 docker run vaapo/entrypoint_ping
 ```
+# stuff for github
+```code
+ssh -T git@github.com
+git remote set-url origin git@github.com:vaaPo/defa_docker_entrypoint_ping.git
+```
 
 
