@@ -1,0 +1,10 @@
+version: '3.5' 
+
+services: 
+
+    entrypoint_ping:  
+      image: vaapo/entrypoint_ping  
+      build: .
+      volumes: 
+        - .:/mydir
+      container_name: entrypoint_ping
